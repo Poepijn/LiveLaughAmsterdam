@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'quicksand';
+	src: url(Quicksand-VariableFont_wght.ttf);
+	font-style: normal;
+	font-weight: 600;
+}
+/* Algemeen*/
+*,
+html {
+	padding: 0em;
+	margin: 0em;
+	box-sizing: border-box;
+}
+
+li,
+a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+}
+
+.logo {
+	width: 3.75em;
+	height: 3.75em;
+	cursor: pointer;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.25em;
+}
+
+.nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0em 0.65em;
+	font-weight: 50;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+	color: #6369AC;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5em;
+	color: #6369AC;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	text-decoration: overline;
+	color: #6369AC;
+	margin: 2em;
+}
+
+p {
+	font-family: 'quicksand', sans-serif;
+	font-size: 1.0em;
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 0.5em;
+	line-height: 1.3em;
+}
+
+a {
+	color: #6369AC;
+	font-weight: 600;
+}
+
+.button {
+	font-size: 1.2em;
+	background-color: transparent;
+	color: #6369AC;
+	border: 3px solid #6369AC;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 2px;
+	transition-duration: .4s;
+}
+
+.buttonsection{
+	padding:3em 0em;
+	display: flex;
+	justify-content: center;
+}
+
+/*pagina street art*/
+
+.streetart {
+	background-color: #fffdf6;
+	background-image: url(streetart.png);
+	background-repeat: no-repeat;
+	background-size: 99%;
+}
+
+.streetartsection section {
+	background-size: 13.75em 20em;
+	background-repeat: no-repeat;
+}
+
+.sectionhome {
+	padding: 3em 2em;
+}
+
+.section2 {
+	margin-top: 2em;
+	padding-bottom: 0em;
+	padding: 3em 2em 6em;
+}
+
+.sectionhome1 {
+	background-image: url(een.png);
+	background-position: 80% 0%;
+	padding: 3.5em 2em 1em;
+}
+
+.sectionhome2 {
+	background-image: url(twee.png);
+	background-position: 0% 100%;
+	padding: 6em 2em 6em;
+}
+
+.sectionhome3 {
+	background-image: url(drie.png);
+	background-position: 20% 120%;
+	padding: 18em 2em 2em;
+}
+
+.sectionhome4 {
+	background-image: url(vier.png);
+	background-position: 0% 0%;
+	padding: 2em 2em 10em;
+}
+
+.sectionhome5 {
+	background-image: url(vijf.png);
+	background-position: 50% 0%;
+	padding: 5em 2em;
+}
+
+/* pagina home*/
+
+.indexsection {
+	background-color: #fffdf6;
+	background-image: url(homeachtergrond.png);
+	background-repeat: no-repeat;
+	background-size: 99%;
+}
+
+.titel {
+	color: #8186bb ;
+	text-align: center;
+	margin: 2.5em 0em;
+}
+
+.welcomehome {
+	font-weight: 500;
+}
+
+.indexsection2 {
+	padding: 1.5em 2em;
+	
+}
+
+.sectionhome6 {
+	text-align: center;
+	padding: 3em 2.5em;
+}
+
+/* detail pagina*/
+.detail{
+	background-color: #fffdf6;
+	background-image: url(achtergrond3.png);
+	background-repeat: no-repeat;
+	background-size: 99%;
+}
+
+.detailsection {
+	padding: 5.8em 2em 6em;
+}
+
+.detailsection img{
+	float: right;
+	width: 12em;
+	height: 18em;
+	padding: 0.5em;
+}
+/* foto pagina*/
+
+.foto {
+	text-align: center;
+	background-image: url(achtergrond4.png);
+	background-color: #fffdf6;
+	background-repeat: no-repeat;
+	background-size: 99%;
+}
+
+.fotos{
+	padding: 2em 0em 3em;
+}
+.fotos img{
+
+	width: 21em;
+	height: 14em;
+}
+.terms li{
+	margin: 0em 3em;
+}
+
+/*footer*/
+
+footer{
+	background-color:#93579E;
+	text-align:center;
+	padding: 1em 1em 0.3em;
+	border-top-left-radius: 0.5em;
+}
+
+footer p{
+	font-family: 'Poppins', sans-serif;
+	color:#521B5E;
+	font-weight: 600;
+}
